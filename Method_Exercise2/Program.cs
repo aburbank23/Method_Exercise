@@ -4,8 +4,26 @@ namespace Method_Exercise2
 {
     class Program
     {
+
+        public static int Sum(int num1, int num2) {
+            return num1 + num2;
+        }
+
+        public static int Mlply(int num1, int num2)
+        {
+            return num1 * num2;
+        }
+
+
         static void Main(string[] args)
         {
+
+            var daysOfClass = Sum(1, 5);
+
+            var randomMultiplication = Mlply(500, 500);
+
+
+
             Console.WriteLine($"Hello there. Can you tell me your name?");
             var username = Console.ReadLine();
 
